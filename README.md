@@ -33,8 +33,21 @@ The .obj file that needs to be processed with this code must follow certain rule
 ```
 # Example
 # .obj file name: YellowJacket.obj
-# Open the file in a text editor (notepad++ etc.)
-# Search for the term 'mtllib' the reference after the mtllib should be 'YellowJacket.mtl'
+# Open the .obj file in a text editor (notepad++ etc.)
+# Search for the term 'mtllib' the reference after the mtllib should be 'YellowJacket.mtl' i.e. update the line to look like
+# mtllib YellowJacket.mtl
+```
+
+2. Categories need to be assigned to material group inside the .obj file
+```
+1. Open the .obj file in a text editor (notepad++ etc.)
+2. Seach for the term 'usemtl'
+3. Update the term refernces after 'usemtl' to include one of the categories mentioned in util.py file
+
+# Example
+# .obj file name: Buzz.obj
+# usemtl <whatever>_cloth
+# usemtl <anythin>_wood
 ```
 
  
