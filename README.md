@@ -27,9 +27,9 @@ python gen_mtl.py
 ```
 
 ## Code structure
-The .obj file that need to be processed with this code needs to follow certain rules
+The .obj file that needs to be processed with this code must follow certain rules
 
-1. The name of referenced .mtl file in the .obj file needs to be the same as the .pbj file itself.
+1. The name of referenced .mtl file in the .obj file needs to be the same as the .obj file itself.
 ```
 # Example
 # .obj file name: YellowJacket.obj
