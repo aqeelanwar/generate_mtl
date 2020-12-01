@@ -31,10 +31,11 @@ The .obj file that needs to be processed with this code must follow certain rule
 
 1. The name of referenced .mtl file in the .obj file needs to be the same as the .obj file itself.
 ```
+1. Open the .obj file in a text editor (notepad++ etc.)
+2. Search for the term 'mtllib' the reference after the mtllib should be <name_of_obj_file>.mtl
+
 # Example
 # .obj file name: YellowJacket.obj
-# Open the .obj file in a text editor (notepad++ etc.)
-# Search for the term 'mtllib' the reference after the mtllib should be 'YellowJacket.mtl' i.e. update the line to look like
 # mtllib YellowJacket.mtl
 ```
 
